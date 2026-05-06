@@ -1,19 +1,38 @@
 body {
-    text-align: center;
+    background-color:lightskyblue;
+    background-image: repeating-linear-gradient(to bottom, white,lightblue,lightpink,white,lightblue,lightpink,white);
+    
 }
 
 h1 {
-    color: brown;
+    color: orchid;
     text-decoration: underline;
+    text-align:center;
 }
 
 p {
-    color:chocolate;
-    font-size: 18px;
+    color:rgb(24, 83, 24);
+    font-size: 20px;
+    text-align:center;
+    border:0px;
+    margin:15px;
 }
 
-#pic
-{
+#pic{
     display:flex;
-    justify-content: center;
+    justify-content:space-around;
+
+    height:500px;
+    width:500px;
+    margin-left: 320px;
+}
+
+#caption{
+    align-content:center;
+    margin-right: 100px;
+}
+
+#welcome{
+    text-align: center;
+    margin-top:30px;
 }
