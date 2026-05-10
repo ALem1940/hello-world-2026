@@ -16,20 +16,28 @@ p {
     text-align:center;
     border:0px;
     margin:15px;
+    margin-bottom: 70px;
 }
 
-#pic{
+#pic {
+    height: 200px;
     display:flex;
-    justify-content:space-around;
-
-    height:500px;
-    width:500px;
-    margin-left: 320px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border: thick;
+    border-width: 90px;
+    border-style: dotted; 
+    border-top-left-radius: 500px;
+    border-bottom-right-radius:500px;
+    background: purple;
+    border-color: orchid;
 }
-
+    
 #caption{
-    align-content:center;
-    margin-right: 100px;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 105px;
+    font-size: 2px;
 }
 
 #welcome{
