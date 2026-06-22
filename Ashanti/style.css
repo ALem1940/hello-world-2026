@@ -1,19 +1,46 @@
 body {
-    text-align: center;
+    background-color:lightskyblue;
+    background-image: repeating-linear-gradient(to bottom, white,lightblue,lightpink,white,lightblue,lightpink,white);
+    
 }
 
 h1 {
-    color: brown;
+    color: orchid;
     text-decoration: underline;
+    text-align:center;
 }
 
 p {
-    color:chocolate;
-    font-size: 18px;
+    color:rgb(24, 83, 24);
+    font-size: 20px;
+    text-align:center;
+    border:0px;
+    margin:15px;
+    margin-bottom: 70px;
 }
 
-#pic
-{
+#pic {
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border: thick;
+    border-width: 90px;
+    border-style: dotted; 
+    border-top-left-radius: 500px;
+    border-bottom-right-radius:500px;
+    background: purple;
+    border-color: orchid;
+}
+    
+#caption{
     display:flex;
     justify-content: center;
+    margin-left: 105px;
+    font-size: 2px;
+}
+
+#welcome{
+    text-align: center;
+    margin-top:30px;
 }
